@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.main-heading {
+  color: #5d4037;
+}
+
+.Item-inside {
+  height: 220px;
+  border-radius: 12px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.Item-inside {
+  height: 220px;
+  border-radius: 12px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.Item-inside:hover .img-div,
+.Item-inside:hover .btn {
+  transform: scale(1.1);
+}
+
+.img-div {
+  padding: 0;
+}
+
+.img-div {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-fluid {
+  height: 220px;
+}
+
+.main-title h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.price-book-divide h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4db6ac;
+}
+
+.price-book-divide {
+  margin-bottom: 10px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0px;
+}
+
+.btn-primary {
+  background-color: #4db6ac;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  margin-top: 2rem;
+
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+
+  height: 220px;
+  width: 116%;
+
+}
+.card-body {
+  width: 100%;
+  margin-left: 24px;
+}
+body{
+  font-size: 16px;
+}
+
+.para
+{
+  font-size: 12px;
+}
+
+.big{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .card-img, .card-img-bottom, .card-img-top {
+    height: 100px;
+    width: 100%;
+}
+.card-body{
+  margin-top: -102px;
+}
+body{
+  font-size: 9px;
+}
+
+.price-book-divide h2{
+  font-size: 16px;
+}
+.btn{
+  font-size: 10px;
+}
+.dabba
+{
+  display: inline;
+}
+ .main-heading 
+ {
+   margin-top: 95px;
+ }
+ .btn-primary{
+  margin-top: -7px;
+  margin-left: 3rem;
+  font-size: 10px;
+  background-color: #e74c3c;
+ }
+
+
+}
+
+
+
+
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width:575.98px) and (max-width: 767.98px) {
+  
+  .card-body{
+    width: 51%;
+    margin-left: 218px;
+    font-size: 17px;
+    margin-bottom: 7px;
+    margin-top: -227px;
+  }
+  .card-img, .card-img-bottom, .card-img-top {
+
+    height: 220px;
+    width: 45%;
+  
+  }
+  .main-heading {
+    text-align: center;
+    font-size: 32px;
+    color: #e74c3c;
+}
+    .btn-primary{
+      /* margin-left: 103px; */
+      margin-top: 0rem;
+      font-size: 18px;
+    }
+    p{
+      margin-top: 20px;
+    }
+.chotu{
+  display: inline;
+}
+.price-book-divide h2{
+margin-top: 12px;
+}
+
+
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width:768px) and (max-width: 1024px) {
+  .btn-primary{
+    margin-left: -85px;
+    margin-top: 2rem;
+    font-size: 12px;
+    background-color: #2ecc71;
+  }
+  .card-body
+  {
+    font-size: 14px;
+  }
+  
+
+}
+
+@media (min-width:1025px) and (max-width: 1400px) {
+  .btn-primary{
+    margin-left: -85px;
+    margin-top: 2rem;
+    font-size: 12px;
+    background-color: #2c3e50;
+  }
+  .card-body
+  {
+    font-size: 14px;
+  }
+
+}
